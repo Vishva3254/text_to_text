@@ -1,0 +1,52 @@
+[
+  {
+    "input": "lets hangout",
+    "translations": {
+      "MBART": {
+        "translation": "اجازه می دهد که به بیرون بریم",
+        "inference_time": 2.077162265777588
+      },
+      "MT5": {
+        "translation": "بیا کمی استراحت کنیم",
+        "inference_time": 2.1134135723114014
+      },
+      "Argos Translate": {
+        "translation": "اجازه دهید Hangout",
+        "inference_time": 0.7334909439086914
+      },
+      "Googletrans": {
+        "translation": "بیایید پاتوق کنیم",
+        "inference_time": 1.7576603889465332
+      },
+      "Deep Translator": {
+        "translation": "بیایید پاتوق کنیم",
+        "inference_time": 1.788684368133545
+      }
+    }
+  },
+  {
+    "input": "i want to eat icecream",
+    "translations": {
+      "MBART": {
+        "translation": "می خواهم آیسکریم بخورم",
+        "inference_time": 2.6692776679992676
+      },
+      "MT5": {
+        "translation": "من می خواهم بستنی بخورم",
+        "inference_time": 12.148670196533203
+      },
+      "Argos Translate": {
+        "translation": "می خواهم بستنی بخورم",
+        "inference_time": 0.7492599487304688
+      },
+      "Googletrans": {
+        "translation": "من می خواهم بستنی بخورم",
+        "inference_time": 1.1109204292297363
+      },
+      "Deep Translator": {
+        "translation": "من می خواهم بستنی بخورم",
+        "inference_time": 2.1504123210906982
+      }
+    }
+  }
+]

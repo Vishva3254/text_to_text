@@ -1,0 +1,44 @@
+[
+  {
+    "input": "بیایید پاتوق کنیم",
+    "translations": {
+      "MBART": {
+        "translation": "Let's stop.",
+        "inference_time": 2.410100221633911
+      },
+      "MT5": {
+        "translation": "Let's stop",
+        "inference_time": 0.6424045562744141
+      },
+      "Googletrans": {
+        "translation": "Let's hangout",
+        "inference_time": 0.5071587562561035
+      },
+      "Deep Translator": {
+        "translation": "Let's hangout",
+        "inference_time": 2.156562089920044
+      }
+    }
+  },
+  {
+    "input": "اجازه می دهد که به بیرون بریم",
+    "translations": {
+      "MBART": {
+        "translation": "It allows us to go outside.",
+        "inference_time": 2.1289851665496826
+      },
+      "MT5": {
+        "translation": "Lets us go out",
+        "inference_time": 1.166170597076416
+      },
+      "Googletrans": {
+        "translation": "Lets go out",
+        "inference_time": 1.7294070720672607
+      },
+      "Deep Translator": {
+        "translation": "Lets go out",
+        "inference_time": 1.8186790943145752
+      }
+    }
+  }
+]

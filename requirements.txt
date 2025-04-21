@@ -1,0 +1,6 @@
+streamlit
+transformers==4.42.4
+torch
+googletrans==4.0.0-rc1
+deep-translator==1.11.4
+argostranslate==1.9.6
