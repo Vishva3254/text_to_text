@@ -77,6 +77,7 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from googletrans import Translator
 import time
+import streamlit as st
 
 # MBART Model
 mbart_tokenizer = AutoTokenizer.from_pretrained("facebook/mbart-large-50-many-to-many-mmt", use_auth_token=st.secrets["HF_TOKEN"]")
