@@ -80,15 +80,15 @@ import time
 import streamlit as st
 
 # MBART Model
-mbart_tokenizer = AutoTokenizer.from_pretrained("facebook/mbart-large-50-many-to-many-mmt", use_auth_token=st.secrets["HF_TOKEN"])
-mbart_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/mbart-large-50-many-to-many-mmt", use_auth_token=st.secrets["HF_TOKEN"])
+mbart_tokenizer = AutoTokenizer.from_pretrained("facebook/mbart-large-50-many-to-many-mmt", token=st.secrets["HF_TOKEN"])
+mbart_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/mbart-large-50-many-to-many-mmt", token=st.secrets["HF_TOKEN"])
 
 # MT5
-mt5_en_fa_tokenizer = AutoTokenizer.from_pretrained("persiannlp/mt5-large-parsinlu-translation_en_fa", use_auth_token=st.secrets["HF_TOKEN"])
-mt5_en_fa_model = AutoModelForSeq2SeqLM.from_pretrained("persiannlp/mt5-large-parsinlu-translation_en_fa", use_auth_token=st.secrets["HF_TOKEN"])
+mt5_en_fa_tokenizer = AutoTokenizer.from_pretrained("persiannlp/mt5-large-parsinlu-translation_en_fa", token=st.secrets["HF_TOKEN"])
+mt5_en_fa_model = AutoModelForSeq2SeqLM.from_pretrained("persiannlp/mt5-large-parsinlu-translation_en_fa", token=st.secrets["HF_TOKEN"])
 
-mt5_fa_en_tokenizer = AutoTokenizer.from_pretrained("persiannlp/mt5-base-parsinlu-opus-translation_fa_en", use_auth_token=st.secrets["HF_TOKEN"])
-mt5_fa_en_model = AutoModelForSeq2SeqLM.from_pretrained("persiannlp/mt5-base-parsinlu-opus-translation_fa_en", use_auth_token=st.secrets["HF_TOKEN"])
+mt5_fa_en_tokenizer = AutoTokenizer.from_pretrained("persiannlp/mt5-base-parsinlu-opus-translation_fa_en", token=st.secrets["HF_TOKEN"])
+mt5_fa_en_model = AutoModelForSeq2SeqLM.from_pretrained("persiannlp/mt5-base-parsinlu-opus-translation_fa_en", token=st.secrets["HF_TOKEN"])
 
 translator = Translator()
 
